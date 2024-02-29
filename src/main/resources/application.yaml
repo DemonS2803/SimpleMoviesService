@@ -1,0 +1,13 @@
+
+server:
+  port: 10000
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: root
+      database: moviebox
+      host: localhost
+      port: 27017
