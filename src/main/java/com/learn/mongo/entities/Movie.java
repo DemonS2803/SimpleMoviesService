@@ -1,16 +1,16 @@
 package com.learn.mongo.entities;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-@Document
+@Document("movies")
 public class Movie {
     
     @Id
-    private Long id;
+    private String id;
     private String title;
     private String description;
     private Integer year;

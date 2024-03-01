@@ -2,12 +2,19 @@
 server:
   port: 10000
 
-spring:
-  data:
-    mongodb:
-      authentication-database: admin
-      username: root
-      password: root
-      database: moviebox
-      host: localhost
-      port: 27017
+# spring:
+#   datasource:
+#       url: jdbc:mongo://localhost:27017/moviebox
+#       username: rootuser
+#       password: rootpass
+#       driver-class-name: mongodb.jdbc.MongoDriver
+
+  # data:
+  #   mongodb:
+  #     host: "localhost"
+  #     port: 27017
+  #     database: "moviebox"
+  #     username: ""
+  #     password: ""
+
+
